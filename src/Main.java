@@ -12,7 +12,7 @@ public class Main {
                 new Bicycle("bicycle2", 2),
         };
 
-        StationService stationService = new ServiceStation();
-        stationService.check(vehicles);
+        ServiceStation serviceStation = new ServiceStation();
+        serviceStation.check(vehicles);
     }
 }
