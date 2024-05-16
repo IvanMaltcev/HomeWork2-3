@@ -8,6 +8,5 @@ public class Car extends MotorTransport {
     public void service() {
         super.service();
         super.checkEngine();
-        System.out.println("Проверяем двигатель");
     }
 }
